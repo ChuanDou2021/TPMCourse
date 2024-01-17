@@ -431,7 +431,7 @@ $ sha256sum importantfile
 9accd0e5d4870154a11283b7c7d03ee0a2bb23fdc8a74ec3da9bb47735ffa286  importantfile
 $ tpm2_pcrreset 23
 $ tpm2_pcrread sha256:23
-$ tpm2_pcrextend 23:sha256=
+$ tpm2_pcrextend 23:sha256=9accd0e5d4870154a11283b7c7d03ee0a2bb23fdc8a74ec3da9bb47735ffa286
 $ tpm2_pcrread sha256:23
 sha256:
   23: 0xA627D2393558018DAB64CEC80E65AAD3EFDBD4D7F5237E8DA41E70E9F02DBDD3
@@ -472,7 +472,7 @@ $ sha256sum importantfile
 06ffaf725651f7fcda018202f6e2661350e51efaff3d02c3b5720668b954d72f  importantfile
 $ tpm2_pcrreset 23
 $ tpm2_pcrread sha256:23
-$ tpm2_pcrextend 23:sha256=
+$ tpm2_pcrextend 23:sha256=06ffaf725651f7fcda018202f6e2661350e51efaff3d02c3b5720668b954d72f
 $ tpm2_pcrread sha256:23
 sha256:
   23: 0x36348FD1CAB7772FB2421C94BB75F727ED7ADD83A3972045FB2A84337721E4ED
